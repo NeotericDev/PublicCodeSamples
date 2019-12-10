@@ -1,0 +1,10 @@
+com\asker\messages\MySerializable.class
+com\asker\messages\ChatMessage.class
+com\asker\messages\BaseMessage.class
+com\asker\ClusterClient.class
+com\asker\messages\MulMessage.class
+com\asker\messages\DivMessage.class
+com\asker\App.class
+com\asker\messages\SubMessage.class
+com\asker\messages\TextMsg.class
+com\asker\messages\AddMessage.class
