@@ -62,6 +62,21 @@ public class MyString implements Comparable {
         return builder.toString();
     }
 
+    public static void print(MyString[] myStrings){
+        print('[');
+        for(int i = 0; i < myStrings.length; i++){
+            print(myStrings[i]);
+            if(i < myStrings.length - 1){
+                print(',');
+            }
+        }
+        print(']');
+    }
+
+    private static void print(Object o){
+        System.out.print(o);
+    }
+
 
     @Override
     public int compareTo(Object o) {
